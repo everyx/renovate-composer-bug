@@ -1,0 +1,23 @@
+{
+    "name": "dev/renovate-composer-bug",
+    "require": {
+        "laminas/laminas-dependency-plugin": "^2.5",
+        "firebase/php-jwt": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dev\\RenovateComposerBug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "everyx",
+            "email": "lunt.luo@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true
+        }
+    }
+}
