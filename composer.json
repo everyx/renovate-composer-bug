@@ -2,7 +2,7 @@
     "name": "dev/renovate-composer-bug",
     "require": {
         "laminas/laminas-dependency-plugin": "^2.5",
-        "firebase/php-jwt": "^5"
+        "firebase/php-jwt": "^6"
     },
     "autoload": {
         "psr-4": {
