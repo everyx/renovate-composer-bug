@@ -65,28 +65,28 @@
         },
         {
             "name": "laminas/laminas-dependency-plugin",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-dependency-plugin.git",
-                "reference": "8f2d10199381cdc7d0843bfadad55f8485df9e38"
+                "reference": "d98c34fc81f65564ef97e045a381ac3419958615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-dependency-plugin/zipball/8f2d10199381cdc7d0843bfadad55f8485df9e38",
-                "reference": "8f2d10199381cdc7d0843bfadad55f8485df9e38",
+                "url": "https://api.github.com/repos/laminas/laminas-dependency-plugin/zipball/d98c34fc81f65564ef97e045a381ac3419958615",
+                "reference": "d98c34fc81f65564ef97e045a381ac3419958615",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": ">=1.1.0 <2.3.0",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
             },
             "require-dev": {
                 "composer/composer": ">=1.9.0 <2.3.0",
-                "laminas/laminas-coding-standard": "~2.4.0",
+                "laminas/laminas-coding-standard": "~2.5.0",
                 "mikey179/vfsstream": "^1.6.11",
                 "phpunit/phpunit": "^9.5.5",
-                "psalm/plugin-phpunit": "^0.17.0",
+                "psalm/plugin-phpunit": "^0.18.0",
                 "roave/security-advisories": "dev-master",
                 "vimeo/psalm": "^4.5"
             },
@@ -106,7 +106,7 @@
             "description": "Replace zendframework and zfcampus packages with their Laminas Project equivalents.",
             "support": {
                 "issues": "https://github.com/laminas/laminas-dependency-plugin/issues",
-                "source": "https://github.com/laminas/laminas-dependency-plugin/tree/2.5.0"
+                "source": "https://github.com/laminas/laminas-dependency-plugin/tree/2.6.0"
             },
             "funding": [
                 {
@@ -114,7 +114,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-16T14:45:47+00:00"
+            "time": "2023-12-14T20:02:33+00:00"
         }
     ],
     "packages-dev": [],
